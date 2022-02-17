@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            .parent{
+           
+                background-color: rgb(157, 201, 82);
+              display: flex;
+              flex-direction: row;
+              align-items: stretch;
+            }
+            .child{
+                background-color: cyan;
+                width: 100px;
+               line-height: 200px;
+                border: 2px solid black;
+                text-align: center;
+                font-size: 30px;
+                margin: 20px;   
+            }
+             .child1{
+                min-height: 100px;
+                flex-grow: 1;
+            }
+            .child2{
+                min-height: 150px;
+                flex-grow: 1;
+               
+            }
+            .child3{
+                min-height: 200px;
+                flex-grow: 1;
+               
+            }
+            .child4{
+                min-height: 250px;
+                flex-grow: 1;
+              
+            }
+            .child5{
+                min-height: 300px;
+                flex-shrink:1;
+              
+               
+               
+            }
+            
+        </style>
+    </head>
+    <body>
+    <div class="parent">
+        <div class="child child1">DIV1</div>
+        <div class="child child2">DIV2</div>
+        <div class="child child3">DIV3</div>
+        <div class="child child4">DIV4</div>
+        <div class="child child5">DIV5</div>
+    </div>
+        
+    </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10kform</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        #cross{
+   height: 30px;
+    width: 30px;
+    position: relative;
+    top: -15px;
+    left: 770px;
+   cursor: pointer;
+   }
+   .before::after{
+       content: "*";
+       color: red;
+      }
+    </style>
+</head>
+
+<body>
+    <form action="" class="container p-3">
+        <div class="p-3">
+          
+          <label for="institute" class="before"><b>Select the start date of the boot camp that you would like to attend. Our boot camp starts at 10AM</b></label> <br>
+          <input type="radio" name="date" value="27th February 2022" id="institute" />27th february 2022 <br>
+          <input type="radio" name="date" value="29th February 2022"  id="institute"/>29th february 2022 <br>
+          <input type="radio" name="date" value="31th February 2022" id="institute" />31th february 2022 <br>
+          <input type="radio" name="date" value="2nd March 2022" id="institute" />2nd March 2022 <br>
+                  
+        </div>
+        <div class="p-3">
+               <label class="before" for="name"><b>NAME</b></label>
+               <input type="text" name="name" id="name" /><br><br>
+               <label class="before" for="mail"><b>E-MAIL</b></label>
+               <input type="email" name="Email" id=mail /><br><br>
+               <label class="before" for="phone"><b>Phone</b></label>
+               <input type="number" name="phone" id=phone /><br><br>
+        </div>
+        <div class="p-3">
+          <label for="qualification"class="before"><b> What is your highest degree of qualification?</b></label> <br>
+          <input type="radio" name="education" value="B.E/B.Tech" id="qualification" />B.E/B.Tech<br>
+          <input type="radio" name="education" value="M.E/M.Tech"  id="qualification"/>M.E/M.Tech <br>
+          <input type="radio" name="education" value="MCA" id="qualification" />MCA <br>
+          <input type="radio" name="education" value="OTHER" id="qualification" />OTHER<br>
+          <input type="text" name="other"><br>
+                  
+        </div>
+        <div class="p-3">
+          <label for="passout" class="before"><b>Pass out year of your highest degree of qualification? </b></label> <br>
+          <input type="radio" name="year" value="2020" id="passout" />2020<br>
+          <input type="radio" name="year" value="2019"  id="passout"/>2019 <br>
+          <input type="radio" name="year" value="2018" id="passout" />2018 <br>
+          <input type="radio" name="year" value="other" id="passout" />OTHER<br>
+          <input type="text" name="other"><br>
+        </div>
+        <div class="p-3">
+          <label for="exp" class="before"><b>Which of the following best describes your programming experience?  </b></label> <br>
+          <input type="radio" name="experience?" value="no experience" id="exp" /> I do not have prior programming experience<br>
+          <input type="radio" name="experience" value="Beginner"  id="exp"/>  Beginner: I learned to code but am not good at writing code<br>
+          <input type="radio" name="experience" value="Intermediate" id="exp" /> Intermediate: I can write basic code <br>
+          <input type="radio" name="experience" value="Advanced" id="exp" /> Advanced: I can create simple applications writing code<br>
+          
+        </div>
+        <div class="p-3">
+        <label class="before"> <b>Why do you want to join this program</b></label>
+        <p><b>(please donot use special characters or symbols)</b></p>
+        <input type="text" name="other"><br>
+          <p>Briefly explain what you expect from this program and how much time can you dedicate for this program. Remember, this is not a ‘sit-back-watch-and-forget online bootcamp. You need to do the heavy lifting to get results.</p>
+        </div>
+      </form>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      
+</body>
+</html>

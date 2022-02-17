@@ -1,0 +1,425 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: lavender;
+}
+header img{
+    margin:20px 40px;
+}
+.banner{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    background-color: lavender;
+}
+.content1{
+    width: 60%;
+    height: 650px;
+   margin-left: 60px;
+}
+.bgimage{
+        width: 40%;
+        height: 650px;
+        background-image: url("	https://www.10000coders.co/assets/banner-graph.svg ");
+        background-repeat: no-repeat;
+        background-position: center;
+}
+.content1 .para1{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:500;
+    margin-bottom: 40px;
+    color: #052442;
+}
+.content1 h1{
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:900;
+    margin: 30px 0px;
+    color: #000;
+}
+.content1 .para2{
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #052442;
+    margin-bottom: 30px;
+}
+.content1 a{
+    padding: 20px 60px;
+    border-radius: 10px;
+    background-color: #ff6d00;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 30px 0px;
+}
+.content1 .para3{
+    font-size: 15px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.main1{
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+    padding: 40px 40px;
+}
+.main1 h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: inherit;
+    margin-bottom: 30px;
+}
+.icons{
+    height:550px ;
+    width: 100%;
+   
+}
+.iconsdiv{
+    display: flex;
+    height: 275px;
+    width: 100%;
+    
+}
+.iconsdiv div{
+    width: 25%;
+    height:275px ;
+    text-align: center;
+}
+.iconsdiv div img{
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+}
+.iconsdiv div p{
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: inherit;
+    color:#2F4744 ;
+}
+.main2{
+    text-align: center;
+}
+.main2 .para5{
+    color: #004BA8;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 40px;
+}
+.main2 h3{
+    font-weight: 700;
+    font-size: 30px;
+    color: #2F4744;
+    padding-bottom: 50px;
+}
+.main2 a{
+    padding: 20px 60px;
+    border-radius: 10px;
+    background-color: #ff6d00;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: uppercase; 
+}
+.main2 .para6{
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+}
+.main3{
+   height: 1800px;
+    width: 100%;
+    padding: 20px 50px;
+    background-image: url("https://www.10000coders.co/assets/technologies.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #EBF0F9;
+}
+.main3 div h2{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: left;
+    font-family: inherit;
+    color: #052442;
+    padding-bottom: 30px;
+
+}
+:first{
+   
+    
+}
+.first .h3{
+   display: inline;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: navy;
+    color: white;
+    margin: 20px 0px;
+    position: relative;
+    top: 50px;
+}
+.day1{
+    position: relative;
+    left: 140px;
+     height: 450px;
+     width: 80%;
+    margin-bottom: 30px;
+     background-color: white;    
+}
+.day1 h3{
+    color: #004BA8;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+}.day1> ul> li{
+    padding: 15px 30px;
+    font-size: 20px;
+    list-style-type: none;
+}
+.day1 p{
+    padding: 20px 10px;
+    font-size: 20px;
+    color: #2F4744;
+    font-weight: bold;
+}
+.founder{
+    height: 700px;
+    width: 100%;
+   
+    padding: 20px 40px;
+}
+.founder h2{
+    text-align: center;
+    font-size: 30px;
+}
+.name img{
+    height: 400px;
+    width: 400px;
+}
+.name{
+    display: flex;
+}
+.name div h3{
+    text-align: left;
+    color: #004BA8;
+    font-size:20px;
+    font-weight: 700;
+    margin-bottom:10px ;
+    padding-top: 100px;
+}
+.name div h4{
+    font-weight: bold;
+    font-size: 20px;
+    color: #2F4744;
+    margin-bottom: 30px;
+}
+.name div p{
+    font-size: 20px;
+    text-align: left;
+    color: #2F4744;
+    line-height: 30px;   
+}
+.founder .para7{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height:30px ;
+    margin: 0px 40px;
+}
+.who{
+    padding: 20px 40px;
+    width: 100%;
+    
+}
+.eligible{
+    margin: 60px 30px;
+}
+.eligible h1,h2{
+    text-align: center;
+}
+.eligible h1{
+   font-weight: 700;
+   font-size: 30px;
+   margin: 30px 0px;
+}
+.eligible h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+
+}
+.right ul li span img{
+    height: 25px;
+    width: 30px;
+}
+.right ul{
+    position: relative;
+    left: 330px;
+    font-size: 25px;
+    font-style: italic;
+    list-style-type: none;
+    
+}
+.right ul li{
+    margin-bottom: 30px;
+}
+.right p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #2F4744;   
+}
+.foot1{
+    background-color: #EBF0F9;
+    padding: 50px 15px;
+}
+.foot1 .para7{
+    text-align: center;
+    font-size: 25px;
+    margin: 30px 20px;
+}
+.foot1 .para8{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.foot2{
+    background-color: #2F4744;
+    padding: 50px 20px;
+    display: flex;
+   justify-content: center;
+    font-weight: 700;;
+}
+.foot2 div{
+    color: #EBF0F9;
+    font-size: 20px;
+}
+@media screen and (min-width:320px) and (max-width:767px){
+   header{
+       flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+   }
+   body{
+       width: 100%;
+   }
+    .banner{
+        display:flex;
+        height: 1100px;
+        text-align: center;
+    }
+    .bgimage{
+        background-image: none;width: 0%;
+    }
+    .content1{
+        width: 100%;
+        height: 650px;
+        margin:10px;
+    }
+    .main1{
+        height: 3000px;
+        width: 100%;
+    }
+    .icons {
+        height: 2400px;
+        width: 100%;
+    }
+    .iconsdiv{
+        display: flex;
+        flex-direction: column;
+        height: 1200px;
+    }
+    .iconsdiv div {
+        width: 100%;
+        height: 275px;
+        text-align: center;
+        margin: 30px 0px;
+    }
+    .main2{
+        height: 450px;
+    }
+    .main3{
+        height: 2600px;
+    width: 100%;
+    padding: 20px 20px;
+    background-image: url(https://www.10000coders.co/assets/technologies.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #EBF0F9;
+}
+.first .h3 {
+    display: inline;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: navy;
+    color: white;
+    margin: 20px 0px;
+    position: relative;
+    top: 40px;
+}
+.day1 {
+    position: relative;
+    left: 100px;
+    height: 700px;
+    width: 90%;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.name div h3 {
+    text-align: left;
+    color: #004BA8;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.name img {
+    height: 300px;
+    width: 300px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    margin-bottom: 20px;
+    
+}
+.who {
+    padding: 20px 40px;
+    width: 100%;
+    margin-top: 650px;
+}
+.right ul {
+    position: relative;
+    left: 30px;
+    font-size: 25px;
+    font-style: italic;
+    list-style-type: none;
+}
+.foot1 {
+    background-color: #EBF0F9;
+    padding: 50px 15px;
+    height: 500px;
+}
+.foot2 {
+    background-color: #2F4744;
+    padding: 50px 20px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+    justify-content: center;
+    font-weight: 700;
+}
+    
+
+    
+

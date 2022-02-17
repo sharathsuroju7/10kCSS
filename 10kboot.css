@@ -1,0 +1,55 @@
+.bgimg{
+   
+    background-image: url("	https://www.10000coders.co/assets/banner-graph.svg ");
+    background-repeat: no-repeat;
+     background-position: center;
+}
+.iconsdiv div img{
+       height:50px ;
+       width:50px ;
+}
+.main3{
+    background-image: url("https://www.10000coders.co/assets/technologies.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.day1> ul> li{
+    padding: 15px 30px;
+    font-size: 15px;
+    list-style-type: none;
+}
+.day1{
+    position: relative;
+    bottom: 60px;
+    left: 90px;
+    max-width: 1000px;
+}
+.right ul li span img{
+    height: 30px;
+    width: 30px;
+}
+.popup{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    background:rgba(0, 0, 0, 0.603);
+    justify-content: center;    
+}
+.content{
+background-color: white;
+width: 60%;
+height: 85%;
+position: relative;
+top: 40px;
+}
+#cross{
+  height: 30px;
+   width: 30px;
+   position: relative;
+   top: -15px;
+   left: 770px;
+  cursor: pointer;
+}
+

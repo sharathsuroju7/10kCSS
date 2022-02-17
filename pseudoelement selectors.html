@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pseudo-element</title>
+        <style>
+            h1::first-letter{
+                color: tomato;
+            
+            }
+            p::first-line{
+                color: violet;
+            }
+            p::selection{
+                background-color: aquamarine;
+            }
+            .after::after{
+                content: "*";
+                color: red;
+            }
+            .before::before{
+                content: "*";
+                color: red;
+            }
+            h2::first-letter{
+                color: limegreen;
+            } 
+            .rail::first-line{
+                background-color:mediumturquoise;
+            }
+        </style>
+
+    </head>
+    <body>
+        
+        <h1>PSEUDO ELEMENT SELECTOR</h1>
+        <h2>Syntax</h2>
+        <h2>Selector::state of an element</h2>
+        <p>A CSS pseudo-element is used to style specified parts of an element.Style the first letter, or line, of an element.
+            Insert content before, or after, the content of an elemen.The ::first-line pseudo-element is used to add a special 
+            style to the first line of a text. The ::first-line pseudo-element can only be applied to block-level elements.
+            The ::first-letter pseudo-element is used to add a special style to the first letter of a text.
+            What is the difference between pseudo-element and pseudo class selectors?
+            A pseudo-element is a 'fake' element, it isn't really in the document with the
+             'real' ones. Pseudo-classes are like 'fake' classes that are applied to elements under certain conditions, much like how you would manipulate the classes of elements using JavaScript.
+            </p>
+            
+            <label class="after" for="name">FULL NAME</label>
+        <input type="text" name="fname" id="name"/>
+        <label class="before" for="sname">SURNAME</label>
+        <input type="text" name="Sname" id="sname"/>
+        <section>
+            <h1>Rail tour packages</h1>
+            <p class="rail">IRCTC offers Exclusive Rail tour 
+                packages with confirmed train tickets, 
+                sight-seeing and meals for enchanting Nilgiri Mountains, Darjeeling, Kullu Manali, Kashmir, Gangtok or divine tours of Mata Vaishno Devi, Rameswaram, Madurai, Shirdi, Tirupati etc. Holiday packages/ Land packages to these destinations are also available.India, the country where Buddhism originated has rich memories of the Buddhist legacy. As part of its drive towards austerity, the only kind of art & architecture that it supported were Stupas, Chaityas & Viharas. Buddhist Train India will help you visit all these places up close for a truly religious experience</p>
+        </section>
+    </body>
+</html>

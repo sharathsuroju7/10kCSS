@@ -1,0 +1,410 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header1{
+    display:flex;
+    background-color: whitesmokes;
+}
+.logo{
+    flex: 10%;
+   
+}
+.img{
+    height: 100px;
+  margin-top: 20px;
+}
+.navclass{
+    flex: 30%;
+}
+.btnarea{
+    flex: 60%;
+    margin-top: 25px;
+  text-align: end;
+  margin-right: 20px;
+}
+
+.btnarea .anchor{
+    margin-right: 50px;
+    cursor: pointer;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: lightskyblue;
+    padding: 10px 20px;
+}
+.ul1{
+    display: flex;
+    list-style-type: none;
+}
+.navclass li{
+    flex: 1;
+    padding: 25px;
+}
+.anchor{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+.banner{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-between;
+}
+.banlft{
+    width: 50%;
+    height: 500px;
+}
+.banryt{
+    width: 40%;
+    height: 500px;
+    
+}
+.hdng{
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+}
+.hdng2{
+    margin-bottom: 40px;
+    color: lightslategrey;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.banlft .btn-area2{
+   font-size: 25px;
+   color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: lightskyblue;
+    padding: 10px 20px;
+    margin: 20px;
+}
+.short{
+    background-image: url("<svg xmlns="http://www.w3.org/2000/svg" width="1110" height="168"><path fill="#4B3F6B" fill-rule="evenodd" d="M647-93.924c0 52.724 15.5 90.486 73 114.877 57.5 24.391 113.055 2.134 168.786 14.894 55.731 12.76 55.731 94.962 108.214 145.549s163.142 62.874 253.12 11.552c89.976-51.322 130.765-171.152 103.88-241.807C1327.115-119.515 1275.593-184 1027-184c-248.593 0-380 37.353-380 90.076zm-781 213c0 52.724 15.5 90.486 73 114.877 57.5 24.391 113.055 2.134 168.786 14.894 55.731 12.76 55.731 94.962 108.214 145.549s163.142 62.874 253.12 11.552C559.095 354.626 599.884 234.796 573 164.141 546.115 93.485 494.593 29 246 29c-248.593 0-380 37.353-380 90.076z"/></svg>");
+    height:200px;
+    background-color:navy;
+    width:80%;
+    border:2px solid black;
+    margin:100px;
+    display:flex;
+    justify-content:space-between;
+   
+}
+.url1{
+    padding:30px 600px 30px 20px;
+    margin: 50px 20px 50px 40px;
+    
+}
+.short{
+    background-image: url("./images/shorten.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: navy;
+    position: relative;
+    top: 190px;
+    
+}
+.btnarea3{
+    margin-top:70px;
+    text-align: right;
+}
+.adst,.adstp{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sec2{
+    padding-top: 300px;
+    background-color: rgb(233, 233, 233);
+}
+.adst{
+    margin: 30px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+section>p{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: lightslategray;
+}
+.parent{
+    background-color: rgb(233, 230, 230);
+    padding-top: 100px;
+    display: flex;
+   justify-content: space-around;
+   padding-bottom: 150px;
+}
+.child{
+    background-color: white;
+    width: 30%;
+    height: 300px;
+}
+.child h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.child>p{
+    color: lightslategray;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.abft{
+    height: 250px;
+    background-image:url("./images/back1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgba(0, 0, 128, 0.986);
+    width: 100%;
+    border: 2px solid rgba(18, 16, 116, 0.103);
+    text-align: center;
+    
+}
+.abft h1{
+    color: white;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
+.abft .btn-area2{
+    color: white;
+    font-weight: bolder;
+    font-size: 20PX;
+    cursor: pointer;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: lightskyblue;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+.footup{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+#icon{
+    flex: 30%;
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.iconul h1{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.iconul{
+    flex: 30%;   
+}
+.iconul ul{
+    list-style-type: none;
+}
+.iconul li{
+    flex: 1;
+       color: rgb(189, 179, 179);
+       margin-bottom: 10px;
+       font-size: 20px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.svgimg{
+    flex: 40%;
+}
+.svgimg1{
+    border-radius: 30px;
+    border: 1px solid navy;
+    background-color: navy;
+}
+.child .svgimg1{
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+.child2{
+    position: relative;
+    top: 30px;
+}
+.child3{
+    position: relative;
+    top: 60px;
+}
+.svgimg svg{
+    margin-right: 20px;
+}
+@media screen and (min-width:320px) and (max-width:767px)
+{
+    .header1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .navclass ul{
+        display: flex;
+        flex-direction: column;
+        background-color: navy;
+        text-align: center;
+    }
+    .navclass ul a{
+        color: white;   
+    }
+    .btnarea{
+        display: flex;
+        flex-direction: column;
+        background-color: navy;
+         text-align: center;
+         margin-top: 0px;
+         margin-right: 0px;
+    }
+    .btnarea .anchor{
+        margin-right: 0px;
+        border-radius: 0px;
+        background-color: navy;
+        color: white;
+    }
+    .btnarea .anchor2{
+        cursor: pointer;
+        border-radius: 20px;
+        text-transform: uppercase;
+        background-color: lightskyblue;
+        margin:25px;
+    } 
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        top: 00px;
+        transform: scale(0.75);
+        align-items: center;
+    } 
+    .banryt{
+       height: 500px;
+        width: 100%;
+        
+    }
+    .banlft{
+        width: 100%;
+        height: 280px;
+        position: relative;
+        bottom: 30px;
+    }
+    .hdng{
+        font-size: 50px;
+        text-align:center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+    .hdng2{
+        text-align: center;
+        font-size: 25px;
+        position: relative;
+        top: 20px;
+       
+    }    
+     .banlft .btn-area2 {
+        font-size: 25px;
+        color: white;
+        cursor: pointer;
+        font-weight: bolder;
+        text-decoration: none;
+        border-radius: 20px;
+        text-transform: uppercase;
+        background-color: lightskyblue;
+        padding: 10px 20px;
+        position: relative;
+        top: 20px;
+        left: 70px;
+}
+.short{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/shorten.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: navy;
+    position: relative;
+    top: 200px;
+    height: 200px;
+    width: 100%;
+    margin: 0px;
+}
+.url1 {
+    padding: 20px 140px 20px 10px;
+    margin: 50px;
+}
+.banlft {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    bottom: 30px;
+}
+.btnarea3 {
+    margin-top: 70px;
+    text-align: center;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+}
+.child{
+    background-color: white;
+    width: 80%;
+    height: 300px;
+    position: relative;
+    bottom: 20px;
+    left: 35px;
+}
+.abft h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+footer{
+    height: 590px;
+    width: 100%;
+}
+.footup{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+}
+#icon{
+    position: relative;
+    
+}
+.iconul{
+    position: relative;
+    top: 40px;
+}
+.svgimg{
+ position: relative;
+ top: 50px;
+}
+.child .svgimg1 {
+    position: relative;
+    bottom: 20px;
+    left: 150px;
+}
+

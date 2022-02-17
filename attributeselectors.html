@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>attribute selectors</title>
+        <style>
+               a[target]{
+                   background-color: burlywood;
+               }
+               a[target="_blank"]{
+                   background-color:cyan;
+               }
+        </style>
+    </head>
+    <body>
+        <h1>ATTRIBUTE SELECTORS</h1>
+        <p>The [attribute] selector is used to select elements with a specified attribute.</p>
+        <p>The links with a target attribute gets a yellow background:</p>
+       <a href="https://www.flipkart.com">flipkart.com</a>
+        <a href="http://www.hotstat.com" target="_blank">hotstar.com</a>
+         <a href="http://www.amazon.in" target="_top">amazon.in</a> 
+         <h1>
+             ATTRIBUTE VALUE SELECTOR
+         </h1>
+         <p>The [attribute="value"] selector is used to select elements with a specified attribute and value.</p>
+         <p>The following example selects all <a> elements with a target="_blank" attribute:</p>
+            <a href="https://www.myntra.com">myntra.com</a>
+            <a href="http://www.aha.com" target="_blank">aha.com</a>
+             <a href="http://www.ajio.in" target="_top">ajio.in</a> 
+    </body>
+</html>

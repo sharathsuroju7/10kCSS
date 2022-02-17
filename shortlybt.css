@@ -1,0 +1,50 @@
+.para1{
+    font-size:65px;
+    
+}
+.bgimg{
+    background-image: url("./images/images/illustration-working.svg");
+    background-repeat: no-repeat;
+}
+.ban{
+    min-height:500px;
+}
+.adstp{
+    font-size: 20px;
+}
+.box{
+    
+   min-height: 600px;
+    
+}
+.icon2{
+    position: relative;
+    top:30px;
+}
+    .icon3{
+        position: relative;
+        top:60px;
+}
+.logo img{
+    background-color: navy;
+    position: relative;
+     bottom: 50px;
+    
+}
+.abft{
+  background-image: url("./images/images/bg-boost-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: rgba(75, 75, 121, 0.952);    
+}
+.input{
+    background-image: url("./images/images/bg-shorten-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: rgba(49, 49, 131, 0.877);
+    position: relative;
+    
+}
+.url{
+    
+    padding: 20px 80px 20px 10px;
+}
+
